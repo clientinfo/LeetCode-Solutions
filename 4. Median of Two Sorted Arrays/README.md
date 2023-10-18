@@ -2,7 +2,7 @@
 
 Difficulty: **Hard**
 
-Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively, return **the median** of the two sorted arrays.
+Given two sorted arrays `array_number_one` and `array_number_two` of size `m` and `n` respectively, return **the median** of the two sorted arrays.
 
 The overall run time complexity should be `O(log (m+n))`.
 
@@ -10,7 +10,7 @@ The overall run time complexity should be `O(log (m+n))`.
 
 **Example 1:**
 
-**Input:** nums1 = [1,3], nums2 = [2]
+**Input:** array_number_one = [1,3], array_number_two = [2]
 
 **Output:** 2.00000
 
@@ -20,7 +20,7 @@ The overall run time complexity should be `O(log (m+n))`.
 
 **Example 2:**
 
-**Input:** nums1 = [1,2], nums2 = [3,4]
+**Input:** array_number_one = [1,2], array_number_two = [3,4]
 
 **Output:** 2.50000
 
@@ -30,9 +30,9 @@ The overall run time complexity should be `O(log (m+n))`.
 
 **Constraints:**
 
-- `nums1.length == m`
-- `nums2.length == n`
+- `array_number_one.length == m`
+- `array_number_two.length == n`
 - `0 <= m <= 1000`
 - `0 <= n <= 1000`
 - `1 <= m + n <= 2000`
-- `-10^6 <= nums1[i], nums2[i] <= 10^6`
+- `-10^6 <= array_number_one[i], array_number_two[i] <= 10^6`
