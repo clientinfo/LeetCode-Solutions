@@ -31,11 +31,11 @@ The same principle applies to the number nine, which is written as IX.
 
 There are six instances where subtraction is used:
 
-I can be placed before V (5) and X (10) to make 4 and 9. 
+- I can be placed before V (5) and X (10) to make 4 and 9. 
 
-X can be placed before L (50) and C (100) to make 40 and 90. 
+- X can be placed before L (50) and C (100) to make 40 and 90. 
 
-C can be placed before D (500) and M (1000) to make 400 and 900.
+- C can be placed before D (500) and M (1000) to make 400 and 900.
 
 Given a roman numeral, convert it to an integer.
 
@@ -74,8 +74,8 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
 **Constraints:**
 
-1 <= s.length <= 15
+- 1 <= s.length <= 15
 
-s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
+- s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
 
-It is guaranteed that s is a valid roman numeral in the range [1, 3999].
+- It is guaranteed that s is a valid roman numeral in the range [1, 3999].
