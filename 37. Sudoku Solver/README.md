@@ -40,6 +40,6 @@ The input board is shown above and the only valid solution is shown below:
 
 - board.length == 9
 
-- board[i].length == 9
-- board[i][j] is a digit or '.'.
+- board[row].length == 9
+- board[row][col] is a digit or '.'.
 - It is guaranteed that the input board has only one solution.
