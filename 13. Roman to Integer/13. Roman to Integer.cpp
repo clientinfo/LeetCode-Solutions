@@ -3,9 +3,9 @@ class Solution
 	
 public:
 
-    int romanToInt(string s) {
+    int romanToInt(string arg_string) {
         // Create a map to store the numeric values for each Roman numeral symbol
-        std::unordered_map<char, int> l_roman_values = 
+        std::unordered_map<char, int> roman_values = 
 		{
             {'I', 1},
             {'V', 5},
@@ -19,14 +19,14 @@ public:
         int result = 0;
 
         // Iterate through the Roman numeral string
-        for (int index = 0; index < s.length(); ++index) {
+        for (int index = 0; index < arg_string.length(); ++index) {
             // Check for the subtraction cases
-            if (index < s.length() - 1 && l_roman_values[s[index]] < l_roman_values[s[index + 1]]) {
-                result += l_roman_values[s[index + 1]] - l_roman_values[s[index]];
+            if (index < arg_string.length() - 1 && roman_values[arg_string[index]] < roman_values[arg_string[index + 1]]) {
+                result += roman_values[arg_string[index + 1]] - roman_values[arg_string[index]];
                 // Skip the next symbol since it's already considered in subtraction
                 ++index;
             } else {
-                result += l_roman_values[s[index]];
+                result += roman_values[arg_string[index]];
             }
         }
 
